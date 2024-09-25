@@ -1,5 +1,22 @@
-<p>login works!</p>
-<p-checkbox
-    [(ngModel)]="checked"
-    [binary]="true"
-    inputId="binary" />
+<app-nav></app-nav>
+<img class="img" src="Rectangle.png" alt="" />
+<div class="background-auth">
+  <div class="container">
+    <form>
+      <div>
+        <h1>Inicio de sesión</h1>
+        <p>Selecciona un tipo de usuario e ingresa tus datos</p>
+      </div>
+      <div class="flex flex-column gap-2">
+        <label for="username">Nombre de usuario</label>
+        <input pInputText id="username" aria-describedby="username-help" placeholder="Usuario"/>
+      </div>
+
+      <div class="flex flex-column gap-2">
+        <label for="password">Contraseña</label>
+        <p-password placeholder="Ingresa tu contraseña" [toggleMask]="true" />
+
+      </div>
+    </form>
+  </div>
+</div>

@@ -1,15 +1,17 @@
 import { Component } from '@angular/core';
-import { FormsModule } from '@angular/forms';
-import { CheckboxModule } from 'primeng/checkbox';
+import { NavComponent } from '../components/nav/nav.component';
+import { LogoComponent } from "../../shared/components/logo/logo.component";
+import { InputTextModule } from 'primeng/inputtext';
+import { PasswordModule } from 'primeng/password';
 
 @Component({
   selector: 'app-login',
   standalone: true,
-  imports: [CheckboxModule, FormsModule],
+  imports: [NavComponent, LogoComponent, InputTextModule, PasswordModule],
   templateUrl: './login.component.html',
   styleUrl: './login.component.scss'
 })
 export class LoginComponent {
-  checked: boolean = false;
+
 
 }
