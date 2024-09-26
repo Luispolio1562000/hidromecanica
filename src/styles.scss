@@ -1,10 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
 @import "primeicons/primeicons.css";
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
-.nav{
-  background-color: #f9d700;
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter";
 }
-.background-auth{
+.nav {
+  background-color: #f9d700;
+}
+.background-auth {
   background-color: #000000;
+  height: 100vh;
+}
+
+.button-global {
+  background-color: #f9d700;
+  font-weight: 500;
+  color: white;
+  font-size: 24px;
+  border-radius: 8px;
 }

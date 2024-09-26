@@ -6,3 +6,28 @@
 h1{
   color: #f9d700;
 }
+
+
+a{
+  color: #f9d700;
+  font-size: 24px;
+}
+p, label {
+  color: white;
+}
+.input-login{
+  background-color:transparent;
+  color: white;
+}
+
+::placeholder {
+  color: white;
+  opacity: .5;
+}
+.button-global {
+  background-color: #f9d700;
+  font-weight: 500;
+  color: white;
+  font-size: 24px;
+  border-radius: 8px;
+}

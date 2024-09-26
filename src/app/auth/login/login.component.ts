@@ -3,11 +3,13 @@ import { NavComponent } from '../components/nav/nav.component';
 import { LogoComponent } from "../../shared/components/logo/logo.component";
 import { InputTextModule } from 'primeng/inputtext';
 import { PasswordModule } from 'primeng/password';
+import { CheckboxModule } from 'primeng/checkbox';
+import { ButtonModule } from 'primeng/button';
 
 @Component({
   selector: 'app-login',
   standalone: true,
-  imports: [NavComponent, LogoComponent, InputTextModule, PasswordModule],
+  imports: [NavComponent, LogoComponent, InputTextModule, PasswordModule, CheckboxModule, ButtonModule],
   templateUrl: './login.component.html',
   styleUrl: './login.component.scss'
 })
