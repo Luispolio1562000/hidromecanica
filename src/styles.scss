@@ -11,7 +11,19 @@
 .nav {
   background-color: #f9d700;
 }
+<<<<<<< HEAD
 .background-auth {
+=======
+
+
+.white-writing{
+  color: #ffffff;
+  width: 548px;
+  height: 54px;
+}
+
+.background-auth{
+>>>>>>> 13f4472e2c66dfb62cc14172a81063c271972545
   background-color: #000000;
   height: 100vh;
 }
@@ -22,4 +34,25 @@
   color: white;
   font-size: 24px;
   border-radius: 8px;
+}
+
+.btn-global {
+  width: 548px; 
+  height: auto; 
+  display: flex; 
+  flex-direction: column; 
+  flex-wrap: nowrap; 
+  align-items: center; 
+  align-content: stretch; 
+  justify-content: start; 
+  gap: 32px; 
+  
+
+  padding: 16px; 
+  background-color: #f9d700; 
+  color: rgb(0, 0, 0); 
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
