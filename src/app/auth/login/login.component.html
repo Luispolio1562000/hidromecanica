@@ -1,50 +1,56 @@
-<app-nav></app-nav
-><!--
-  <img class="img" src="Rectangle.png" alt="" /> -->
-<div class="background-auth d-flex justify-content-center align-items-center">
-  <div class="container">
-    <form>
-      <div class="mb-3">
-        <h1>Inicio de sesión</h1>
-        <p>Selecciona un tipo de usuario e ingresa tus datos</p>
-      </div>
-      <div class="mb-3 d-flex flex-column">
-        <label for="username">Nombre de usuario</label>
-        <input
-          type="email"
-          class="form-control input-login"
-          id="username"
-          placeholder="Usuario"
-          aria-describedby="emailHelp"
-        />
-      </div>
-      <div class="mb-3 d-flex flex-column">
-        <label for="password">Contraseña</label>
+<app-nav></app-nav>
+<div class="container" >
+  <div class="row d-flex justify-content-start">
+    <div class="col">
+      <div class="d-flex justify-content-center align-items-center">
+        <div>
+          <form class="p-3">
+            <div>
+              <h1>Inicio de sesión</h1>
+              <p>Selecciona un tipo de usuario e ingresa tus datos</p>
+            </div>
+            <div class="mb-3 d-flex flex-column">
+              <label for="username">Nombre de usuario</label>
+              <input
+                type="email"
+                class="form-control input-login"
+                id="username"
+                placeholder="Usuario"
+                aria-describedby="emailHelp"
+              />
+            </div>
+            <div class="mb-3 d-flex flex-column">
+              <label for="password">Contraseña</label>
+              <input
+                type="password"
+                class="form-control input-login"
+                id="password"
+                placeholder="Ingresa tu contraseña"
+              />
+            </div>
+            <div class="mb-3 form-check">
+              <input
+                type="checkbox"
+                class="form-check-input input-login"
+                id="remember-user"
+              />
+              <label for="remember-user">Recordar usuario</label>
+            </div>
 
-        <input
-          type="password"
-          class="form-control input-login"
-          id="password"
-          placeholder="Ingresa tu contraseña"
-        />
+            <div class="m-3 d-flex justify-content-center">
+              <a class="forgot-password" routerLink="/forgot-password"
+                >Recuperar contraseña</a
+              >
+            </div>
+            <div>
+              <button class="button-global w-100">Iniciar sesión</button>
+            </div>
+          </form>
+        </div>
       </div>
-      <div class="mb-3 form-check">
-        <input
-          type="checkbox"
-          class="form-check-input input-login"
-          id="remember-user"
-        />
-        <label for="remember-user">Recordar usuario</label>
-      </div>
-
-      <div class="m-3 d-flex justify-content-center">
-        <a class="forgot-password" routerLink="/forgot-password"
-          >Recuperar contraseña</a
-        >
-      </div>
-      <div>
-        <button class="button-global w-100">Iniciar sesión</button>
-      </div>
-    </form>
+    </div>
+    <div class="col">
+      <img src="image-login.jpg" alt="" srcset="" />
+    </div>
   </div>
 </div>

@@ -5,11 +5,12 @@ import { InputTextModule } from 'primeng/inputtext';
 import { PasswordModule } from 'primeng/password';
 import { CheckboxModule } from 'primeng/checkbox';
 import { ButtonModule } from 'primeng/button';
+import { SidebarModule } from 'primeng/sidebar';
 
 @Component({
   selector: 'app-login',
   standalone: true,
-  imports: [NavComponent, LogoComponent, InputTextModule, PasswordModule, CheckboxModule, ButtonModule],
+  imports: [NavComponent, LogoComponent, InputTextModule, PasswordModule, CheckboxModule, ButtonModule, SidebarModule],
   templateUrl: './login.component.html',
   styleUrl: './login.component.scss'
 })

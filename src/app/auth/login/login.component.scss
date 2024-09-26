@@ -1,28 +1,48 @@
+:host{
+display: block;
+height: 100vh;
+background-color: black;
 
-.img{
-  float: right;
+}
+img {
+  position: absolute;
+  top: -0.88px;
+  opacity: 1;
+  object-fit: cover;
+  width:49%;
+  height:100%;
+
+}
+.contenedor{
+ background-color: black;
 }
 
-h1{
+
+
+h1 {
   color: #f9d700;
 }
 
-
-a{
+a {
   color: #f9d700;
   font-size: 24px;
 }
-p, label {
+p,
+label {
+  color: white;
+  font-size: 16px;
+}
+.input-login {
+  background-color: transparent;
   color: white;
 }
-.input-login{
-  background-color:transparent;
-  color: white;
+::-ms-reveal {
+  filter: invert(100%);
 }
 
 ::placeholder {
   color: white;
-  opacity: .5;
+  opacity: 0.5;
 }
 .button-global {
   background-color: #f9d700;
